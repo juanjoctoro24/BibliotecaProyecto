@@ -14,7 +14,7 @@ namespace BibliotecaProyecto.DAL
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            modelBuilder.Entity<Country>().HasIndex(c => c.Name).IsUnique(); 
+            modelBuilder.Entity<Country>().HasIndex(c => c.Name).IsUnique(); //se crea el indice del campo Name
         }
 
         #region Dbsets
