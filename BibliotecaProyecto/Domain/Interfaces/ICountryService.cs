@@ -14,7 +14,7 @@ namespace BibliotecaProyecto.Domain.Interfaces
 
         Task<Country> CreateCountryAsync(Country country);
 
-        Task<Country> GetCountryByid(Guid id);
+        Task<Country> GetCountryByIdAsync(Guid id);
 
         Task<Country> EditCountryAsync(Country country);
 
